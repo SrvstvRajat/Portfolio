@@ -1,0 +1,543 @@
+.blog-nav
+{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    
+}
+.blog-nav li
+{
+    display: inline-block;
+    margin:0px 30px 30px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-nav li a
+{
+    text-decoration-line: none;
+    color: azure;
+    transition:color 0.5s, border-bottom 4s;
+}
+
+.blog-nav li a:hover
+{
+    color:grey ;
+    border-bottom:4px solid white;
+}
+
+#ico li
+{
+    font-size: 30px;
+    padding:5px;
+}
+
+#ico li a i:hover
+{
+    border-bottom: 0px;
+    border-radius: 30%;
+    box-shadow: 0px 6px 5px 0px cornsilk;
+}
+header
+{
+    opacity:1;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(./Images/5569502.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin: -18px 0 0 0;
+    padding:19px 0 0 0;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size:76px;
+    padding: 93px 0 0 0;
+    font-weight: 600;
+}
+body
+{
+    margin: 0px;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden !important;
+}
+main
+{
+    background-color:white;
+}
+
+
+/* about */
+
+#about
+{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+#about h3
+{
+    font-weight: 400;
+    width: 50%;
+    margin:auto;
+    font-family: cursive;
+    margin-top: -158px;
+}
+#myimg
+{
+    height:17rem;
+    width:18rem;
+    margin: auto;
+}
+#myimg img
+{
+    height: 95%;
+    width: 82%;
+    border-radius: 50%;
+    border:4px solid white;
+    box-shadow:0 1px 3px 3px bisque;
+    margin-top: -150px;
+}
+
+
+/* flex
+#container
+{
+    margin: auto;
+    height:50vh;
+    width:50vw;
+    background-color: darkkhaki;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container div
+{
+    border-radius: 50px;
+    height:auto;
+    width: 50%;
+    padding: 25px;
+}
+
+#div1
+{
+    background-color: darksalmon;
+}
+#div2
+{
+    background-color: deeppink;
+}
+#div3
+{
+    background-color:forestgreen;
+}
+#div4
+{
+    background-color:rgb(255, 47, 227);
+}
+ */
+/* 
+/* section{
+    width:100%;
+    height:auto;
+    /* display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}*/ 
+section:nth-child(2n+1)
+{
+    background-color:cornsilk;
+}
+section:nth-child(2n)
+{
+    background-color: white;
+}
+
+
+/* skills */
+
+#tittle
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#parentflex
+{
+    height:auto;
+    width:65vw;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* background-color:blueviolet; */
+    /* overflow-wrap:break-word ; */
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+#parentflex div
+{
+    /* border:4px solid red; */
+    padding:40px;
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+#parentflex div i{
+    margin-top: 10px;
+    font-size: 100px;
+    border-radius: 50px;
+    border:4px;
+}
+
+
+#educ
+{
+    height:auto;
+    width:75vw;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+    overflow-wrap:break-word ;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+#educ div
+{
+        /* text-align: end; */
+        margin-left: 10px;
+        font-size: 30px;
+        background-color: floralwhite;
+        /* border:8px solid black;  */
+        padding:30px;
+        margin: 10px;
+        border-radius: 30px;
+        height:auto;
+        width:40%;
+}
+
+#educ div i{
+    margin-top: -44px;
+    font-size: 80px;
+    border-radius: 50px;
+    border:4px;
+}
+
+/* 
+.time-divide
+{
+    position:absolute;
+    top:10%;
+    left:50%;
+    height: 85%;
+    width:0px;
+    border:4px grey;
+    border-style:dashed;
+} */
+
+
+
+/* experience */
+
+.exp
+{
+    height:auto;
+    width:65vw;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* background-color:blueviolet; */
+    /* overflow-wrap:break-word ; */
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.exp div
+{
+    font-size: 30px;
+    background-color: floralwhite;
+    padding:30px;
+    border-radius: 30px;
+    overflow-wrap: break-word;
+    height:auto;
+    width:auto;
+}
+.exp div a
+{
+    text-decoration: none;
+}
+
+
+ #timeline
+{
+    /* height:auto;
+    width: 100vw; */
+    margin-bottom: 10vh;
+    background-color:rgba(26, 26, 26, 0.541);
+    color: cornsilk;
+    background-image: url(./Images/pexels-jessica-lewis-593324.jpg);
+     background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.timelinebox
+{
+    position: relative;
+    width: 75%;
+     margin: auto;
+     /* border: 4px solid black; */
+    /*display: flex;
+    flex-wrap: wrap; */
+    /* border: 4px solid none; */
+}
+
+.timelineboxdiv
+{
+    font-weight: 500;
+    overflow-wrap: break-word;
+    color:  white;
+    position: relative;
+    padding:20px;
+    background-color: rgb(75 115 197 / 48%);
+    margin: 5px;
+    left: 5%;
+    /* min-height: 150px; */
+    width: 40%;
+    /* border: 4px solid black; */
+    border-radius: 50px;
+}
+
+
+.timelineboxdiv a{
+    color: whitesmoke;
+}
+
+.timelineboxdiv:nth-child(2n)
+{
+    left: 55%;
+}
+
+/* .time-divide
+{
+    position:absolute;
+    top:10%;
+    right:50%;
+    height: 75%;
+    width: 0px;
+    border:4px black;
+    border-style:dashed;
+} */
+
+
+
+/* project */
+#project
+{
+    margin-top: -10vh;
+    margin-bottom:10vh;
+    height: auto;
+    overflow-wrap: break-word;
+    /* width: 98vw; */
+    /* border: 4px solid black; */
+    background-color: #df878717;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+
+
+
+
+#proj
+{
+    margin: auto;
+    height: auto;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 4px solid red; */
+    justify-content: center;
+}
+
+
+
+#proj div{
+    height:50%;
+    border-radius: 30%;
+    width:30%;
+    font-size: 25px;
+    text-align: center;
+    margin:40px;
+    /* background-color: ivory; */
+}
+
+#proj div img
+{
+    border-radius: 15%;
+    box-shadow: 0px 0px 16px 4px burlywood;
+    height:75%;
+    width: 100%;
+}
+
+#proj div a:hover
+{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+
+
+
+
+
+/* contact */
+
+
+#cont
+{
+
+    background-color: white;
+    margin-top: -10vh;
+    width: 100%;
+    /* background-image: linear-gradient(331deg, black 24%,blueviolet 58%,red); */
+    /* background-color:black; */
+}
+
+#contact
+{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content:space-between;
+    /* border: 4px solid black; */
+}
+
+/* 
+.time-divide
+{
+    position:absolute;
+    top:10%;
+    right:50%;
+    height: 50vh;
+    width:0px;
+    border:4px white;
+    border-style:dashed;
+    overflow-wrap: break-word;
+} */
+
+ 
+#feed
+{
+
+    margin: auto;
+    position: relative;
+    width:75vw;
+    background-color:ghostwhite;
+    height: 100vh;
+    overflow-wrap: break-word;
+    height: auto;
+    /* border: 5px solid green; */
+}
+/*
+
+#other
+{
+    position: relative;
+    width:30%;
+    height: auto;
+    overflow-wrap: break-word;
+    border: 5px solid green;
+}
+
+ */
+
+#form
+{
+    color: black;
+    /* margin-left: 10px; */
+    margin:10px;
+    font-size: 20px;
+    padding:50px;
+}
+
+#form input,textarea
+{
+    padding: 10px;
+    width:92%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#name,textarea
+{
+    border:0.5px solid;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+
+
+#form button,div button
+{
+    width: 95%;
+    /* margin-left: 10%; */
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: #3694ffde;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+}
+
+#tittle button 
+{
+    position: relative;
+    /* border: 10px solid black; */
+    transition:0.5s ;
+}
+#tittle button:hover
+{
+    background-color:rgb(75 173 199);
+}
+
+
+.foot
+{
+    padding: 1rem;
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: azure;
+}
+
+
+.foot p
+{
+    margin: auto;
+}
