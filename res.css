@@ -332,6 +332,24 @@ section:nth-child(2n)
     left: 55%;
 }
 
+
+@media screen and (max-width:900px)
+{
+    .timelinebox{
+        width: 90%;
+    }
+    .timelineboxdiv
+    {
+        position: relative;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .timelineboxdiv:nth-child(2n)
+    {
+        left:5%;
+    }
+}
+
 /* .time-divide
 {
     position:absolute;
