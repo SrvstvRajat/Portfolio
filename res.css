@@ -333,16 +333,17 @@ section:nth-child(2n)
 }
 
 
-@media screen and (max-width:900px)
+@media screen and (max-width:600px)
 {
     .timelinebox{
         width: 90%;
     }
     .timelineboxdiv
     {
+        width: 90%;
         position: relative;
         margin: auto;
-        margin-bottom: 10px;
+        margin-top: 15px;
     }
     .timelineboxdiv:nth-child(2n)
     {
